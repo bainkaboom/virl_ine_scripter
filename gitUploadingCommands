@@ -1,0 +1,16 @@
+#INitialize the root directory of my project:
+git init
+
+#Add the paths to the next commit cycle:
+git add .
+
+git commit -m "Title of your commit, or update summary"
+
+#Make sure you have you have the remote directory to push too (github link):
+git remote add origin https://github.com/bainkaboom/virl_ine_scripter.git
+
+#verify the url is in the remote area:
+git remote -v
+
+#Pushing changes to the HUB
+git push origin master
